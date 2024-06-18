@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         webView = findViewById(R.id.webview);
         webView.setWebViewClient(new WebViewClient());
         webView.setWebViewClient(new MyWebViewClient());
-        webView.loadUrl("https://nextjs-bus-booking-system.vercel.app/");
+        webView.loadUrl("https://schoolbusapp.webesi.co.ke/");
 
         // Register a callback for back navigation
         OnBackPressedDispatcher onBackPressedDispatcher = this.getOnBackPressedDispatcher();
